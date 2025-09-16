@@ -1,0 +1,53 @@
+{
+  "emission_factors": {
+    "comment": "Emission factors in kg CO₂e per liter of fuel",
+    "diesel": 2.68,
+    "benzin": 2.31,
+    "el": 0.15,
+    "hybrid": 1.5
+  },
+  "fuel_consumption": {
+    "comment": "Base fuel consumption in liters per 100km by vehicle class",
+    "vans": {
+      "diesel": 8.5,
+      "benzin": 9.2,
+      "el": 20.0,
+      "hybrid": 6.5
+    },
+    "truck": {
+      "diesel": 25.0,
+      "benzin": 28.0,
+      "el": 50.0,
+      "hybrid": 20.0
+    },
+    "hgv": {
+      "diesel": 35.0,
+      "benzin": 40.0,
+      "el": 80.0,
+      "hybrid": 28.0
+    },
+    "standard": {
+      "diesel": 7.0,
+      "benzin": 8.0,
+      "el": 18.0,
+      "hybrid": 5.5
+    }
+  },
+  "load_multipliers": {
+    "comment": "Multiplier factors based on load mass in kg",
+    "ranges": [
+      {"max_kg": 500, "multiplier": 1.0},
+      {"max_kg": 1000, "multiplier": 1.1},
+      {"max_kg": 2000, "multiplier": 1.2},
+      {"max_kg": 5000, "multiplier": 1.4},
+      {"max_kg": 10000, "multiplier": 1.6},
+      {"max_kg": 999999, "multiplier": 1.8}
+    ]
+  },
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-08-21",
+    "source": "Danish Environmental Protection Agency guidelines and EU emission standards",
+    "notes": "Emission factors include well-to-wheel calculations for comprehensive CO₂e assessment"
+  }
+}

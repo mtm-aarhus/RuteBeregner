@@ -1,0 +1,3 @@
+"""
+Komponentpakke til RuteBeregner applikationen.
+"""

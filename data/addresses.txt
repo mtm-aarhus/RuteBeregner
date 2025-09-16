@@ -1,0 +1,9 @@
+id,anlaeg_id,navn,adresse,postnr,by,created_at,updated_at
+259a7216-b24d-4950-a81b-c1bd856996f2,1061,"Gert Svith, Birkesig Grusgrav",Rugvænget 18,8444,Grenå,2025-08-25T11:38:00.930627,2025-08-25T11:39:50.628258
+9bb59692-3f85-4786-a798-e7bd872f48fd,1013,JJ Grus A/S (Kalbygård Grusgrav),Hovedvejen 24A,8670,Låsby,2025-08-25T11:38:00.937056,2025-08-25T11:38:00.937056
+cdd3fea9-954f-45b9-9755-ea8280ee6edd,1327,"Johs. Sørensen & Sønner A/S, Ren depotjord",Holmstrupgårdvej 9,8220,Brabrand,2025-08-25T11:38:00.943608,2025-08-25T11:38:00.943608
+591bcac5-6db4-4a85-99de-8719b470fafc,2191,JJ Grus A/S (Ans),Søndermarksgade 43,8643,Ans,2025-08-25T11:38:00.954201,2025-08-25T11:38:00.954201
+cc100f95-6f6d-434a-8200-418a56fafbc0,1901,EHJ Energi & Miljø A/S - Let forurenet jord,Hadstenvej 16,8940,Randers SV,2025-08-25T11:38:00.963895,2025-08-25T11:38:00.963895
+0d95f958-7f30-4cd9-9e85-58e995671b17,1344,"Johs. Sørensen & Sønner A/S, let forurenet jord",Holmstrupgårdvej 9,8220,Brabrand,2025-09-05T10:00:44.309887,2025-09-05T10:00:44.309887
+2da7ae01-55d7-42d7-a5c4-5d31dafcfb7a,2228,JJ Grus (Balle),Nymandsvej 8,8444,Balle,2025-09-05T10:01:55.363140,2025-09-05T10:01:55.363140
+2ac9291f-b39c-4846-aa75-1a56c9e58854,2662,"HPD Byg ApS, Ren sprøjtefri jord",Åbyvej 79,8230,Åbyhøj,2025-09-05T10:03:40.226539,2025-09-05T10:03:40.226539

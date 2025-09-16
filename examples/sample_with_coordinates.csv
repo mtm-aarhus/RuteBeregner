@@ -1,0 +1,5 @@
+company_name,start_address,end_address,start_coordinates,end_coordinates
+"Transport A","","","55.6761,12.5683","56.1572,10.2107"
+"Transport B","Rådhuspladsen 1, København","","55.6761,12.5683",""
+"Transport C","","Aarhus Hovedbanegård","","56.1572,10.2107"
+"Mixed Data","Nørrebrogade 52, København","Vesterbrogade 3, Odense","","55.3959,10.3883"
