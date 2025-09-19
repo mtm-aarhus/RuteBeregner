@@ -88,3 +88,13 @@ tasks/
 
 # MCP Configuration
 .mcp.json
+
+# Backup filer (for sikker installation)
+backup/
+*_backup_*.py
+*_backup_*.css
+*_backup_*.js
+
+# Reflex template filer der ikke skal overskrive eksisterende kode
+# (Kun hvis de ikke allerede er del af projektet)
+# rxconfig_template.py

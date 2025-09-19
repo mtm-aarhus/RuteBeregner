@@ -40,12 +40,20 @@ if errorlevel 1 (
     exit /b 1
 )
 
-REM Initialiser Reflex (dette installerer Node.js dependencies)
-echo Initialiserer Reflex og installerer frontend dependencies...
-reflex init
+REM Tjek om rxconfig.py allerede eksisterer
+if not exist "rxconfig.py" (
+    echo Opretter rxconfig.py...
+    reflex init --no-template
+) else (
+    echo rxconfig.py eksisterer allerede - springer initialisering over
+)
+
+REM Installer Node.js dependencies uden at overskrive eksisterende kode
+echo Installerer frontend dependencies...
+reflex install
 
 if errorlevel 1 (
-    echo Reflex initialisering mislykkedes
+    echo Frontend dependencies installation mislykkedes
     pause
     exit /b 1
 )

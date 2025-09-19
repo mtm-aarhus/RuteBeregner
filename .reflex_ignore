@@ -1,0 +1,23 @@
+# Beskyt eksisterende applikationskode mod overskrivning
+jord_transport/jord_transport.py
+jord_transport/__init__.py
+assets/styles.css
+assets/AAK_TM_venstre_neg.png
+assets/logo.png
+
+# Beskyt data og konfiguration
+data/
+config/
+models/
+utils/
+components/
+pages/
+templates/
+
+# Beskyt dokumentation og scripts
+README.txt
+*.bat
+LICENSE
+
+# Beskyt sikkerhedskopier
+backup/
